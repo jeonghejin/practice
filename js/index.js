@@ -6,7 +6,7 @@ const list = document.querySelector('ul')
 const input = document.querySelector('input')
 
 input.disabled=true
-
+//this is change at 01.04
 const renderTask=(task)=>{
     const li=document.createElement('li')
     li.setAttribute('class', 'list-group-item')
